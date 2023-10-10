@@ -29,7 +29,7 @@ current_state = MENU
 
 # Cargar música
 # Reemplaza con el nombre de tu archivo de música
-music_path = os.path.join("assets", "music1.wav")
+music_path = os.path.join("assets", "music1.mp3")
 pygame.mixer.music.load(music_path)
 pygame.mixer.music.set_volume(0.5)  # Ajusta el volumen (0.0 a 1.0)
 pygame.mixer.music.play(-1)  # -1 para reproducir en bucle
